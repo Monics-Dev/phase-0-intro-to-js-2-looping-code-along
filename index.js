@@ -9,14 +9,12 @@ function writeCards(myArray, surprise)
     }
     return newArray;
 }
-function countDown(number)
-{
+function countDown(number){
     let count = 0;
-    while( number >= count)
-    {
-        console.log(number);
-        number -=1;
-    }
+ while( number >= count){
+  console.log(number);
+ number -=1
+}
 }
 countDown(10);
 writeCards();
